@@ -1,0 +1,67 @@
+#banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#foto {
+    background-image: url("../../../public/assets/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 50%;
+    height: 50vh;
+}
+
+#texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: var(--cor02);
+    font-family: var(--fontpop);
+    padding: 20px;
+    width: 50%;
+    height: 50vh;
+    text-align: left;
+}
+
+
+#sub-titulo-banner {
+    font-size: clamp(11px, 3vw, 14px);
+    color: var(--cor01);
+}
+
+#titulo-banner {
+    font-size: clamp(20px, 5vw, 40px);
+    color: var(--cor01);
+}
+
+#span-banner {
+    color: var(--cor01);
+    font-size: clamp(20px, 3vw, 35px);
+    font-weight: 900;
+}
+
+@media screen and (max-width: 1023px) {
+    #foto {
+        display: none;
+    }
+
+    #texto {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #foto {
+        background-size: contain;
+    }
+
+    #texto {
+        width: 50%;
+    }
+}

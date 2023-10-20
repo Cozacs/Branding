@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  /*tema claro*/
+  --cor01: #022144;/*azul*/
+  --cor02: #fafbfc;/*branco banner(acinzentado)*/
+  --cor03: #32333c;/*preto titulos*/
+  --cor04: #f6f8fc;/*branco acinzentado*/
+  --cor05: #8a8fa3;/*cor paragrafos*/
+  --cor06: #fff;/*cor rodape e topo*/
+  --cor07: #feb633;/*amarelo logo*/
+  /*tema escuro*/
+  --cor08: #CCCCCC;/*cinza titulos*/
+  --cor09: #9F9F9F;/*cor paragrafos*/
+  --cor10: #393838;/*cor secçao info*/
+  --cor11: #252525;/*cor rodape e topo*/
+  /*fonts do projeto*/
+  --fontpop: 'Poppins', sans-serif;
+}

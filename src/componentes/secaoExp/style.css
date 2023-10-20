@@ -1,0 +1,83 @@
+#exp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: var(--fontpop);
+}
+
+#tituloExp {
+    margin: 10px;
+}
+
+#barraAmarela {
+    background-color: var(--cor07);
+    height: 3px;
+    width: 100%;
+    max-width: 80px;
+}
+
+#mercado {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+#secaoCard {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  flex-start;
+    width: 250px;
+    height: 350px;
+    box-shadow: 0px 0px 2px 0px black;
+    padding: 10px;
+}
+
+.sol {
+    background-color: var(--cor04);
+}
+
+.sol p {
+    color: var(--cor05);
+}
+
+.sol h2 {
+    margin: 10px 0px;
+    color: var(--cor03);
+}
+
+.lua {
+    background-color: var(--cor10);
+}
+
+.lua p {
+    color: var(--cor09);
+}
+
+.lua h2 {
+    margin: 10px 0px;
+    color: var(--cor08);
+}
+
+@media screen and (max-width: 1000px) {
+    .card {
+        margin: auto;
+        width: 95%;
+        height: 200px;
+    }
+
+    #exp {
+        height: 170vh;
+    }
+}

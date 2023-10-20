@@ -1,0 +1,51 @@
+footer {
+    padding: 20px;
+    width: 100%;
+}
+
+#rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+#fazemos {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+#imagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+#imagens img {
+    width: 50px;
+}
+
+#autor {
+    font-weight: 700;
+    color: var(--cor07);
+}
+
+.rodapeClaro {
+    color: var(--cor05);
+}
+
+.rodapeEscuro {
+    color: var(--cor09);
+}
+
+@media screen and (max-width: 700px) {
+    #imagens img {
+        width: 45px;
+    }
+}
